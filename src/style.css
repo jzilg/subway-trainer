@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto repeat(9, 1fr);
+    grid-auto-rows: 1fr;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 1em;
+    font-weight: bold;
+    height: 100%;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #333;
+}
+
+.line-u1 {
+    background-color: #7eaf4b;
+    color: #fff;
+}
+
+.line-u2 {
+    background-color: #db4018;
+    color: #fff;
+}
+
+.line-u3 {
+    background-color: #007b5b;
+    color: #fff;
+}
+
+.line-u4 {
+    background-color: #f0d81c;
+}
+
+.line-u5 {
+    background-color: #7f522c;
+    color: #fff;
+}
+
+.line-u6 {
+    background-color: #8d6dad;
+    color: #fff;
+}
+
+.line-u7 {
+    background-color: #518ebb;
+    color: #fff;
+}
+
+.line-u8 {
+    background-color: #1c4e87;
+    color: #fff;
+}
+
+.line-u9 {
+    background-color: #f37a17;
+    color: #fff;
+}
+
+.line,
+.column {
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+    border-color: #333
+}
+
+.column-blank {
+    background-color: #eee;
+}
+
+.input {
+    width: 100%;
+    border-width: 0;
+    padding: .5em 1em;
+}
+
+.input + .input {
+    border-top-width: 1px;
+    border-color: #333
+}
+
+.input-correct {
+    background-color: limegreen;
+    color: #fff;
+}
