@@ -16,7 +16,7 @@ const u1 = {
         'Möckernbrücke',
     ],
     u8: [
-        'Kottbuser Tor',
+        'Kottbusser Tor',
     ],
     u9: [
         'Kurfürstendamm',
@@ -74,7 +74,7 @@ const u4 = {
     u2: u2.u4,
     u3: u3.u4,
     u7: [
-        'Bayrischer Platz'
+        'Bayerischer Platz'
     ],
 }
 
